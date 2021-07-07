@@ -1,0 +1,32 @@
+.categories-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    margin: 30px 0;
+    transition: all .5s;
+}
+
+.categories-cards a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.categories-cards img {
+    width: 400px;
+    height: 400px;
+}
+
+.cat1 div {
+    padding: 30px 0;
+    transition: all .5s;
+}
+
+.cat2 div {
+    padding: 30px 0;
+    transition: all .5s;
+}
+
+.cat3 div {
+    padding: 30px 0;
+    transition: all .5s;
+}
